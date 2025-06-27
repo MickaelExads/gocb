@@ -1,4 +1,4 @@
-module github.com/MickaelExads/gocb
+module github.com/couchbase/gocb/v2
 
 require (
 	github.com/couchbase/gocbcore/v10 v10.7.1-0.20250623094150-4536265d5d42
