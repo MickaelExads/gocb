@@ -19,7 +19,10 @@ type Result struct {
 func (d *Result) Cas() Cas {
 	return d.cas
 }
-
+// Flags return the flags of the result. 
+func (d *GetResult) Flags() uint32 {
+	return d.flags
+}
 // GetResult is the return type of Get operations.
 type GetResult struct {
 	Result
